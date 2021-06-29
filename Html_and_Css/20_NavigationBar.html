@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavigationBar</title>
+    <style>
+        .NavigationBar {
+            background-color: lime;
+            border-radius: 4px;
+            height: 40px;
+        }
+
+        .NavigationBar ul {
+            overflow: auto;
+        }
+
+        .NavigationBar li {
+            float: left;
+            list-style: none;
+            margin: 13px 15px;
+            border: black;
+            /* text-align: center; */
+        }
+
+        .NavigationBar li a {
+            color: rgb(0, 0, 0);
+            padding: 3px 3px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .NavigationBar li a:hover {
+            color: rgb(126, 207, 196);
+        }
+
+        .NavigationBar li a:active {
+            background-color: rgb(15, 147, 165);
+            border-radius: 45px;
+        }
+
+        .search {
+            float: right;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .NavigationBar input {
+            border: 3px solid rgb(228, 217, 217);
+            border-radius: 10px;
+            padding: 3px 17px;
+            width: 120px;
+        }
+
+        /* #second {
+            float: right;
+        }
+
+        #first {
+            float: right;
+        }
+
+        .new {
+            border: aqua;
+            background-color: red;
+        } */
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="NavigationBar">
+            <ul>
+                <li><a herf="#">Home</a> </li>
+                <li><a herf="#">About</a></li>
+                <li><a herf="#">Contact Us</a> </li>
+                <li><a herf="#">Service</a> </li>
+                <div>
+                    <input type="text" class="search" id="searchBox" placeholder="Search here">
+                </div>
+            </ul>
+        </nav>
+
+    </header>
+    <!-- <h2> Image
+    </h2>
+
+    <div class="new" id="first">
+        <img src="https://source.unsplash.com/user/erondu/400x300" alt="Error found">
+    </div>
+    <div class="new" id="second"></div>
+    <li>this is a picture set</li>
+    <li>the picture changes frequently</li>
+    <li>no repeat of the picture in this website</li>
+    </div> -->
+</body>
+
+</html>

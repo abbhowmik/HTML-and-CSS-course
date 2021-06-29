@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashsi's Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<style>
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('background.jpg');
+        font-family: 'Playfair Display', serif;
+
+    }
+
+    .left {
+        /* border: 3px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 55px;
+        top: 13px;
+    }
+
+    .left img {
+        width: 100px;
+        filter: invert(100%);
+        height: 100px;
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 6px;
+        font-size: 19px;
+    }
+
+    .mid {
+        /* border: 1px solid rgb(145, 255, 0); */
+        display: block;
+        width: 36%;
+        margin: 37px auto;
+    }
+
+    .right {
+        position: absolute;
+        right: 21px;
+        top: 13px;
+        display: inline-block;
+        /* border: 2px solid rgb(0, 200, 27); */
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: white;
+        padding: 34px 23px;
+        /* margin: 2px; */
+    }
+
+
+    .navbar li:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: 'Playfair Display', serif;
+        margin: 12px 10px;
+        color: white;
+        background-color: black;
+        padding: 4px 0px;
+        border: 2px solid rgb(51, 255, 0);
+        /* border-radius: 5px; */
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    .btn:hover {
+        text-decoration: underline;
+        color: rgb(124, 96, 96);
+    }
+
+    .container {
+        border: 2px solid greenyellow;
+        margin: 126px 100px;
+        padding: 21px 0px;
+        width: 50%;
+        border-radius: 26px;
+    }
+
+    .form-group input {
+        background-color: rgb(216 211 228);
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        display: block;
+        width: 419px;
+        border-radius: 10px;
+        padding: 12px;
+        border: 3px solid rgb(63, 116, 118);
+        margin: 7px auto;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 34%;
+        border-radius: 12px;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .container button:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+</style>
+
+<body>
+
+    <header class="header">
+        <div class="left">
+            <img src="dumble.jpg" alt="">
+            <div>Ashis's Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active"></a>Home</li>
+                <li><a href="#"></a>About</li>
+                <li><a href="#"></a>Contact Us</li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Join the best JYM of MULUKDANGI Now!!!</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter the address">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter the Phone Number">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter the Gender">
+            </div>
+            <button class="button">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
